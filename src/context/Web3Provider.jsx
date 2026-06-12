@@ -5,7 +5,7 @@ import { evozNetwork } from '../config/evozNetwork'
 
 // PERHATIAN: Dapatkan Project ID gratis Anda di https://cloud.reown.com
 // Ini 100% gratis dan wajib untuk menghubungkan wallet.
-const projectId = 'KODE_PROJECT_ID_GRATIS_ANDA'
+const projectId = 'ff9817bb183a9a1e61349b9770c79193'
 
 // Inisialisasi Ethers v6 Adapter
 const ethersAdapter = new EthersAdapter()
