@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-evoz-bg text-evoz-text font-sans antialiased overflow-x-hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Styling Scrollbar Premium untuk WebKit Desktop */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-evoz-bg;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-evoz-border rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-evoz-textMuted;
+  }
+}
+
+/* Transisi global lembut */
+* {
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
